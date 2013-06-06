@@ -1,15 +1,14 @@
 %define upstream_name    Config-Auto
-%define upstream_version 0.36
-
+%define upstream_version 0.42
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.42
+Release:	1
 
 Summary:	Magical config file parser
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Config/Config-Auto-0.42.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Config::IniFiles)
@@ -57,4 +56,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Apr 17 2011 Funda Wang <fwang@mandriva.org> 0.340.0-1
 + Revision: 653906
 - import perl-Config-Auto
+
 
