@@ -1,4 +1,5 @@
 removed_sources:
   Config-Auto-0.36.tar.gz: f050b7602d167b43a9cc9e52f27a7afea4e21cae
-sources:
   Config-Auto-0.42.tar.gz: 6a0bcbfaa2f56f176ef144eb949f3bdc26a705bc
+sources:
+  Config-Auto-0.44.tar.gz: 3101baa68632cb626746f4f468a7e79055ec6333
