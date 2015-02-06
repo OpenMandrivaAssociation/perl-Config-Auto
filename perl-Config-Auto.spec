@@ -2,7 +2,7 @@
 %define upstream_version 0.44
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	Magical config file parser
 License:	GPL+ or Artistic
